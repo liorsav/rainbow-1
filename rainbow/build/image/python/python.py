@@ -21,10 +21,6 @@ import os
 from rainbow.build.python import BasePythonImageBuilder
 
 
-def __f():
-    return 1
-
-
 class PythonImageBuilder(BasePythonImageBuilder):
 
     def __init__(self, config, base_path, relative_source_path, tag):
