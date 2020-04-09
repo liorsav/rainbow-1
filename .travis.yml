@@ -1,0 +1,8 @@
+language: python
+
+jobs:
+  include:
+  - name: "3.7 Unit Tests"
+    Python: "3.7"
+
+script: ./run_tests.sh $TEST_SUITE
